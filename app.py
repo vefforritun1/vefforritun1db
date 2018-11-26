@@ -6,19 +6,11 @@ from bottle import *
 import pymysql.cursors
 
 # Connect to the database
-"""
+
 connection = pymysql.connect(host='tsuts.tskoli.is',
                              user='kt',
                              password='mypassword',
                              db='kt_db',
-                             charset='utf8mb4',
-                             cursorclass=pymysql.cursors.DictCursor)
-
-"""
-connection = pymysql.connect(host='tsuts.tskoli.is',
-                             user='gus',
-                             password='db1012',
-                             db='gus_vefforritun1h18',
                              charset='utf8mb4',
                              cursorclass=pymysql.cursors.DictCursor)
 
